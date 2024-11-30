@@ -67,35 +67,30 @@ tsc pizza.ts pizza-builder.ts pizza-director.ts teste-pizza.ts
 Isso gerará arquivos .js correspondentes no mesmo diretório.
 
 ### 3. Execute o Arquivo de Teste
-  ```bash 
-  Copiar código
-  node teste-pizza.js
-
+    npm install -g typescript
 ## 🧪 Exemplos de Saída
 Ao executar o arquivo de teste (teste-pizza.ts), o console exibirá algo como:
 
-```bash
-Copiar código
-Pizza:
-  Tamanho: grande
-  Massa: fina
-  Ingredientes: Queijo, Tomate, Manjericão
-Pizza:
-  Tamanho: média
-  Massa: tradicional
-  Ingredientes: Queijo, Pepperoni
-Pizza:
-  Tamanho: pequena
-  Massa: recheada
-  Ingredientes: Queijo, Frango, Milho
-
+    Copiar código
+    Pizza:
+      Tamanho: grande
+      Massa: fina
+      Ingredientes: Queijo, Tomate, Manjericão
+    Pizza:
+      Tamanho: média
+      Massa: tradicional
+      Ingredientes: Queijo, Pepperoni
+    Pizza:
+      Tamanho: pequena
+      Massa: recheada
+      Ingredientes: Queijo, Frango, Milho     
 ## ✨ Funcionalidades Demonstradas
 ### 1. Pizzas Predefinidas:
   Através do PizzaDirector, é possível criar:
-  Pizza Margherita.
-  Pizza Pepperoni.
+  - Pizza Margherita.
+  - Pizza Pepperoni.
 ### 2. Pizza Personalizada:
-  Criada diretamente por um Builder, sem o uso do PizzaDirector.
+  - Criada diretamente por um Builder, sem o uso do PizzaDirector.
 
 ## 🧱 Extensibilidade
 O projeto é altamente modular, permitindo adicionar facilmente novos tipos de pizzas ou novas formas de personalização. Basta criar novos Builders ou estender o PizzaDirector com receitas adicionais.
