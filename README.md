@@ -1,4 +1,4 @@
-# LAB06 - Padrão Builder: Sistema de Criação de Pizzas 🍕
+# Padrão Builder: Sistema de Criação de Pizzas 🍕
 
 Este projeto implementa o padrão de projeto **Builder** para criar objetos do tipo `Pizza`. O sistema permite configurar diferentes tipos de pizzas, tanto predefinidas quanto personalizadas, utilizando uma abordagem modular e orientada a objetos.
 
