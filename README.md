@@ -54,24 +54,31 @@ Copiar código
 - **TypeScript** instalado globalmente:
   ```bash
   npm install -g typescript
+  ```
+  
 ## 🚀 Como Executar o Projeto
 ### 1. Clone o Repositório
-bash
-Copiar código
+```bash
 git clone https://github.com/seu-usuario/lab02-builder-pizzas.git
 cd lab02-builder-pizzas
+```
+
 ### 2. Compile os Arquivos TypeScript
-bash
-Copiar código
+```bash
 tsc pizza.ts pizza-builder.ts pizza-director.ts teste-pizza.ts
+```
 Isso gerará arquivos .js correspondentes no mesmo diretório.
 
+
 ### 3. Execute o Arquivo de Teste
-    npm install -g typescript
+```bash
+  npm install -g typescript
+```  
+    
 ## 🧪 Exemplos de Saída
 Ao executar o arquivo de teste (teste-pizza.ts), o console exibirá algo como:
-
-    Copiar código
+```bash
+Copiar código
     Pizza:
       Tamanho: grande
       Massa: fina
@@ -83,7 +90,9 @@ Ao executar o arquivo de teste (teste-pizza.ts), o console exibirá algo como:
     Pizza:
       Tamanho: pequena
       Massa: recheada
-      Ingredientes: Queijo, Frango, Milho     
+      Ingredientes: Queijo, Frango, Milho    
+```
+     
 ## ✨ Funcionalidades Demonstradas
 ### 1. Pizzas Predefinidas:
   Através do PizzaDirector, é possível criar:
